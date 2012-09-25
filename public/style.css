@@ -1,0 +1,44 @@
+a {
+  color: #08C;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+
+body {
+	background-color:#000;
+}
+
+.imgns {
+	padding: 20px;
+
+}
+
+.imgn {
+	padding: 6px;
+	margin-right: 8px;
+}
+
+.imgn:hover {
+	border-radius:10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+  -webkit-box-shadow: 0 1px 4px #08C;
+  -moz-box-shadow: 0 1px 4px #08C;
+  box-shadow: 0 1px 4px #08C;
+}
+
+.content {
+	margin: 0 auto;
+	width: 60%;
+	padding: 26px;
+	font-family: arial;
+	text-align: center;
+	border-style: solid;
+	background-color:#FFF;
+	border-radius:20px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+}

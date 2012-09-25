@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Rock-Paper-Scissors | Result</title>
+		<link rel="stylesheet" type="text/css" href="/style.css" />
+	</head>
+	<body>
+		<div class="content">
+			<h1>Result: </h1>
+			<h4>You played: <%=@you_play.upcase%></h4>
+			<h4>Computer played: <%=@comp_plays.upcase%></h4>
+			<h2><%=@answer%></h2>
+		
+			<h3>Stats: </h3>
+			<p>Your score: <%=$player_counter%> ; Computer score: <%=$comp_counter%> </p>
+			<p><a href="/reset"> Reset stats </a> | <a href="/"> Play again </a></p>
+		</div>
+	</body>
+</html>
