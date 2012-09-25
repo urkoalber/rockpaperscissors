@@ -25,6 +25,10 @@ get '/reset' do
 	redirect '/'
 end
 
+get '/throw/' do
+	redirect '/'
+end
+
 get '/throw/:type' do
 	selection = :type.downcase
 	player_throw = params[selection].to_sym
