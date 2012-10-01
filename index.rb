@@ -45,6 +45,6 @@ get '/throw/:type' do
 		@answer = "You win!"
 		$player_counter += 1		
 	end
-	erb :resulthtml
+	haml :resulthtml
 end
 

@@ -1,0 +1,18 @@
+%html
+	%head
+		%title Rock-Paper-Scissors | Result
+		%link{"rel" => "stylesheet", "href" => "/style.css", "type" => "text/css"}
+	%body
+		.content
+			%h1 Result:
+			%h4 You played: #{@you_play.upcase}
+			%h4 Computer played: #{@comp_plays.upcase}
+			%h2 #{@answer}
+		
+			%h3 Stats:
+			%p Your score: #{$player_counter} ; Computer score: #{$comp_counter}
+			%p
+				%a(href="/reset") Reset stats
+				| 
+				%a(href="/") Play again 
+
