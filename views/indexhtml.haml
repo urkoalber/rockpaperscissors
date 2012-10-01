@@ -1,0 +1,20 @@
+%html
+	%head
+		%title Rock-Paper-Scissors | Index
+		%link{"rel" => "stylesheet", "href" => "style.css", "type" => "text/css"}
+	%body
+		.content
+			%h1 Welcome!!
+			%p Hi, there! Here you can play the clasic hand game "Rock-Paper-Scissors" against the computer.
+			%p Remember, rock beats scissors; paper beats rock; scissors beats paper.
+			%p Good luck and enjoy! :P
+			
+			%h2 Select your choice: 
+			.imgns
+				%a(href="/throw/rock") 
+					%img.imgn{"src"=>"/rock.png", "alt"=>"rock"}
+				%a(href="/throw/paper") 
+					%img.imgn{"src"=>"/paper.png", "alt"=>"paper"}
+				%a(href="/throw/scissors") 
+					%img.imgn{"src"=>"/scissors.png", "alt"=>"scissors"}
+				

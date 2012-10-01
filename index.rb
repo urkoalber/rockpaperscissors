@@ -15,7 +15,7 @@ get '/' do
 	# llamamos a la plantilla de seleccion
 	# ¿que jugada quiere realizar? ... etc
 	# una vez seleccionado la jugada, se llama a la plagina de jugar. Ej: elegimos tijeras --> llamamos a /throw/scissors
-	erb :indexhtml
+	haml :indexhtml
 	
 end
 
